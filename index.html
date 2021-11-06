@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>True Value Rewards</title>
+</head>
+
+<body>
+
+    <div class="container-fluid h-100 bg-light">
+        <div class="row no-gutters">
+            <div class="col-lg-3 col-sm-12 h-100 bg-white">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="image-box d-flex justify-content-center">
+                            <img src="images/logo.png">
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                                <div class="admin-name my-2">
+                                    <h2>Admin Mode</h2>
+                                </div>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Staff Permissions</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Store Lookup</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Advance Customer Lookup
+                                    </li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Advance Customer Lookup
+                                    </li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Primary Store Update</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Unique Coupon Creation
+                                    </li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Coupon Match load & Search
+                                    </li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Bonus Promo Setup</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Content Page Editor</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Admin Reports</li>
+
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Resources</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> Report</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> General</li>
+                                    <li class="list-group-item"><i class="far fa-folder"></i> LU% Coupons</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-sm-12 h-100">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12 bg-white">
+                        <div class="nav-box">
+                            <div class="summary d-inline-flex">
+                                <i class="fas fa-chevron-left " style="padding: 15%;"></i>
+                                <h6>Back to <br />
+                                    MQL </h6>
+                            </div>
+                            <div class="summary">
+                                <i class="far fa-edit mb-1 d-flex justify-content-center"></i>
+                                <h6>Summary</h6>
+                            </div>
+                            <div class="summary">
+                                <i class="fas fa-users mb-1 d-flex justify-content-center"></i>
+                                <h6>Customers</h6>
+                            </div>
+                            <div class="summary">
+                                <i class="fas fa-store mb-1 d-flex justify-content-center"></i>
+                                <h6>My Store</h6>
+                            </div>
+                            <div class="summary">
+                                <i class="fas fa-signal mb-1 d-flex justify-content-center"></i>
+                                <h6>My Reports</h6>
+                            </div>
+                            <div class="summary">
+                                <i class="fas fa-briefcase mb-1 d-flex justify-content-center"></i>
+                                <h6>Order History</h6>
+                            </div>
+                            <div class="summary">
+                                <i class="fas fa-question-circle mb-1 d-flex justify-content-center"></i>
+                                <h6>Help</h6>
+                            </div>
+                            <div class="summary d-inline-flex">
+                                <i class="fas fa-user-friends mb-1" style="padding: 15%;"></i>
+                                <h6 style="
+                                position: relative;
+                                bottom: 24%;
+                            "> Cornell's <br /> Truevalue <br /> Store #2993</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4 mx-3">
+                    <div class="col-12 bg-white">
+                        <div class="permission-box">
+                            <h4 id="staff">Staff permission Settings</h4>
+                            <p id="select_list">Select List of settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4 mx-3">
+                    <div class="col-lg-3 col-sm-12 mx-2 bg-white">
+                        <div class="settings-box">
+                            <i class="far fa-edit mb-1"></i>
+                            <h6>Permission Settings</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 mx-2 bg-white">
+                        <div class="settings-box">
+                            <i class="far fa-edit mb-1"></i>
+                            <h6>User Settings</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 mx-2 bg-white">
+                        <div class="settings-box">
+                            <i class="far fa-edit mb-1"></i>
+                            <h6>Undefined</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4 mx-3">
+                    <div class="col-12 bg-white">
+                        <div class="check-boxes">
+                            <div class="row">
+                                <ul class="levels">
+                                    <li class="pr-4">Highest Level</li>
+                                    <li class="pr-4">Retailer Support Level</li>
+                                    <li class="pr-4">Customer Support Level</li>
+                                </ul>
+                            </div>
+                            <div class="row mt-3" style="padding-left: 1.8rem;">
+                                <div class="checkbox select-all">
+                                    <input id="all" type="checkbox" />
+                                    <label for="all">Select all</label>
+                                </div>
+                            </div>
+                            <div class="row mt-2" style="padding-left: 1.8rem;">
+                                <div class="checkbox rows">
+                                    <input id="box1" type="checkbox" />
+                                    <label for="box1">Staff Permissions</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box2" type="checkbox" />
+                                    <label for="box2">Store Lookup</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box3" type="checkbox" />
+                                    <label for="box3">Advance Customer Lookup</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box4" type="checkbox" />
+                                    <label for="box4">Primary Store Update</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box6" type="checkbox" />
+                                    <label for="box6">Unique Coupon Creation</label>
+                                </div>
+                            </div>
+                            <div class="row" style="padding-left: 1.8rem;">
+                                <div class="checkbox rows">
+                                    <input id="box6" type="checkbox" />
+                                    <label for="box6">Coupon Match Load & Search</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box7" type="checkbox" />
+                                    <label for="box7">Bonus Promo Setup</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box8" type="checkbox" />
+                                    <label for="box8">Content Page Editor</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box9" type="checkbox" />
+                                    <label for="box9">Admin Report</label>
+                                </div>
+                                <div class="checkbox rows">
+                                    <input id="box10" type="checkbox" />
+                                    <label for="box10">Admin Report</label>
+                                </div>
+                            </div>
+                            <div class="row" style="padding-left: 1.8rem;">
+                                <div class="checkbox rows">
+                                    <input id="box11" type="checkbox" />
+                                    <label for="box11">Point Adj Load</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('#all').change(function (e) {
+            if (e.currentTarget.checked) {
+                $('.rows').find('input[type="checkbox"]').prop('checked', true);
+            } else {
+                $('.rows').find('input[type="checkbox"]').prop('checked', false);
+            }
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
